@@ -1,3 +1,7 @@
+***
+permalink: index.html
+***
+
 # Username: Hotaquet
 ## Qui suis-je? 
 
