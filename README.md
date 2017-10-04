@@ -29,3 +29,4 @@ Je veux développer des compétences en développement Web et dans la programmat
 Mon projet professionnel, est d'obtenir assez de compétences en Web Developpement et/ou en programmation afin soit, d'intégrer une entreprise et mettre mes compétences en pratique, soit de réaliser des projets personnels et donc parvenir à alliées mes différentes passions aussi différentes soit-elles.
 Possibilité de travailler à l'étranger.
 
+[contact](contact.html)
