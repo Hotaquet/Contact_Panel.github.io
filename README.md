@@ -1,5 +1,5 @@
 ---
-permalink: index.html
+permalink: contact.html
 ---
 
 # Username: Hotaquet
