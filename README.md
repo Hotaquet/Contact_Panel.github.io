@@ -1,5 +1,5 @@
 ---
-permalink: contact.html
+permalink: index.html
 ---
 
 # Username: Hotaquet
@@ -19,7 +19,7 @@ J'ai des qualités et des défauts : Je suis curieux et passionné, j'ai parfois
 
 ## Aujourd'hui
 
-Je suis actuellement en formation chez Simplon, dans le but d'acquérir des compétences back-end PHP et Javascript.
+Je suis actuellement en formation chez Simplon, dans le but d'acquérir des compétences back-end PHP et Javascript
 
 
 Je veux développer des compétences en développement Web et dans la programmation front-end/Back-end 
@@ -29,4 +29,4 @@ Je veux développer des compétences en développement Web et dans la programmat
 Mon projet professionnel, est d'obtenir assez de compétences en Web Developpement et/ou en programmation afin soit, d'intégrer une entreprise et mettre mes compétences en pratique, soit de réaliser des projets personnels et donc parvenir à alliées mes différentes passions aussi différentes soit-elles.
 Possibilité de travailler à l'étranger.
 
-[contact](contact.html)
+[contact](index.html)
