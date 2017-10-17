@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
+  background-image: url('tatoo.jpg');
+  background-size: cover;
+  background-repeat: none;
   font-family: "Open Sans", sans-serif;
   padding: 25px 20px;
   margin: 0;
