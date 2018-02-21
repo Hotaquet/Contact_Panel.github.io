@@ -41,4 +41,4 @@ Dev icons buttons links
 - Nouvelle page redirection success form-validation avec Hal
 
 
-[contact](localhost:8888/Tact/)
+[contact](https://Hotaquet.github.io/)
