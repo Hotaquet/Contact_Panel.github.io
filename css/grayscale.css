@@ -122,7 +122,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/milkydata.jpg");
+  background: url("../img/Mk-nasarover.png");
   background-repeat: no-repeat;
   background-color: black;
   -webkit-background-size: cover;
@@ -179,7 +179,7 @@ a:focus, a:hover {
 }
 
 .content-section {
-
+  height: 100vh;
 }
 
 .download-section {
@@ -200,8 +200,8 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  /*  padding-top: 200px;
+    padding-bottom: 200px;*/
   }
   #map {
     height: 350px;
@@ -319,6 +319,8 @@ img::-moz-selection {
   --cf-color-grey: #ebebeb;
   --cf-color-white: white;
 }
+
+
 
 .dark-theme .conversational-form {
   font-family: Helvetica Neue, Helvetica;
@@ -535,4 +537,9 @@ cf-chat-response.robot thumb {
   background-color: var(--cf-color-black);
   background-size: 20px 20px;
   background-repeat: no-repeat;
+}
+
+.test {
+  position: relative;
+  top: 100px;
 }

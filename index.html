@@ -51,7 +51,7 @@
              <div class="row">
                        <!-- Boutons -->
 
-               <a href="#HAL_9000" class="frm12 js-scroll-trigger" style="margin-left:565px; margin-bottom:250px;"></a>
+               <a href="#HAL_9000" class="frm12 js-scroll-trigger" style="margin-left:565px; margin-bottom:230px;"></a>
                <div class="col-lg-12 mx-auto">
 
                  <p class="intro-text"> </p>
@@ -68,13 +68,12 @@
        </header>
                           <!--FORM I HAL9000 -->
 
-        <section id="HAL_9000" class="content-section text-center">
+        <section class="content-section text-center">
          <div class="container">
-           <div class="row">
+           <div id="HAL_9000" class="row pt-5">
 
              <div class="col-lg-8 mx-auto">
-               <br></br><br></br><br></br>
-               <form id="form" method="POST" action="https://formcarry.com/s/B1447nqDz">
+                              <form id="form" method="POST" action="https://formcarry.com/s/B1447nqDz">
                 <input type="hidden" name="_next" value="https://Hotaquet.github.io/"/>
 
   <fieldset>
@@ -165,22 +164,22 @@
     <input pattern=".+\@.+\..+" cf-error="E-mail incorrect" cf-questions="Mon instructeur souhaiterait connaitre votre Email pour vous re-contacter" type="email" class="form-control" name="_replyto" id="your-email">
   </fieldset>
 
-  <fieldset style="display: none;">
+<!--   <fieldset style="display: none;">
     <label for="conclusion">Envoyer le formulaire de contact?</label>
     <div class="radio">
       <label>
                         <input cf-questions="Envoyer le formulaire de contact?" type="radio" name="submit-form" id="submit-form" value="Envoyer le formulaire de contact" class="form-control"> Envoyer le formulaire de contact! </label>
     </div>
-  </fieldset>
+  </fieldset> -->
 
- <!-- <fieldset style="display: none;">
+ <fieldset style="display: none;">
     <label for="conclusion">Envoyer le formulaire de contact?</label>
     <select cf-questions="Envoyer le formulaire de contact?" name="submit-form" id="submit-form" class="form-control">
 
                         <option>Envoyer le formulaire de contact</option>
                     </select>
   </fieldset>
- -->
+
 </form>
 <div id="cf-context" class="dark-theme" role="cf-context" cf-context></div>
 
@@ -191,11 +190,12 @@
        </section>
                               <!--FORM II  -->
 
-        <section id="message" class="download-section content-section text-center">
-         <div class="mk_hires"> 
+        <section class="download-section content-section text-center">
+          
          <div class="container">
-           <div class="col-lg-8 mx-auto">
-             <form id="contact-form" method="post" action="https://formspree.io/lucasribeiro7d@gmail.com">
+           <div class="col-lg-8 mx-auto pt-5">
+            
+             <form  id="contact-form" class="test" method="post" action="https://formspree.io/lucasribeiro7d@gmail.com">
                <input type="hidden" name="_next" value="https://Hotaquet.github.io/"/>
                <div class="messages"></div>
                <div class="controls">
@@ -244,7 +244,7 @@
                            <input type="submit" class="btn btn-default  btn-send" value="Envoyer">
                        </div>
                    </div>
-                   <div class="row">
+                   <div id="message" class="row">
                        <div class="col-md-12">
                            <p class="text-muted"><strong>*</strong>Informations nécessaires</p>
 
@@ -253,7 +253,7 @@
                    </div>
            </div>
          </div>
-        </div>
+        
        </section>
                             <!-- & -->
 
@@ -298,7 +298,7 @@
                       <!-- Javascript -->
        <script src="vendor/jquery/jquery.min.js"></script>
        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-       <script defer src="/js/fontawesome-all.js"></script>
+       <script src="/ js/fontawesome-all.js"></script>
        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
        <script type="text/javascript" src="https://rawgit.com/space10-community/conversational-form/master/dist/conversational-form.min.js" crossorigin></script>
        <script type="text/javascript" src="https://cf-4053.kxcdn.com/conversational-form/0.9.5/conversational-form.min.js" crossorigin></script>
