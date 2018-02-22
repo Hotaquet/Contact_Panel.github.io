@@ -131,7 +131,7 @@ a:focus, a:hover {
   background-size: cover;
 }
 
-.masthead .intro-body {
+.masthead .intro-body {	
   display: table-cell;
   vertical-align: middle;
 }
@@ -229,7 +229,7 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0;
-  background-image: url("/../img/HAL9000.png");
+  background-image: url("../img/HAL9000.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -355,7 +355,9 @@ img::-moz-selection {
   padding-left: 48px;
 }
 .dark-theme .conversational-form cf-chat-response.robot text {
-  color: var(--cf-color-black);
+  color: #e22a0e;
+  border: 1px solid #e22a0e;
+  background-color: black;
 }
 .dark-theme .conversational-form cf-chat-response.robot text > p {
   border-radius: 4px 20px 20px 20px;
@@ -378,14 +380,23 @@ img::-moz-selection {
 .dark-theme .conversational-form cf-chat-response.robot thumb {
   background-image: url("./img/HAL9000.png;");
   background-color: var(--cf-color-black);
-  background-size: 20px 20px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .dark-theme .conversational-form cf-chat-response.user {
   padding-right: 48px;
 }
 .dark-theme .conversational-form cf-chat-response.user text {
-  color: var(--cf-color-white);
+  color: #e22a0e;
+  border: 1px solid #e22a0e;
+  background-color: black;
+}
+
+.dark-theme .conversational-form cf-chat-response.user text:focus, .dark-theme .conversational-form cf-chat-response.user thumb:hover {
+  color: black;
+  border: 1px solid #fffbc1;
+  outline: none;
+  background-color: #fffbc1;
 }
 .dark-theme .conversational-form cf-chat-response.user text > p {
   background: var(--cf-color-black);
@@ -393,9 +404,9 @@ img::-moz-selection {
 }
 .dark-theme .conversational-form cf-chat-response.user thumb {
   background-color: var(--cf-color-black);
-  background-size: 20px 16px;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 11px 12px;
+  background-position: center;
 }
 .dark-theme .conversational-form cf-input input,
 .dark-theme .conversational-form cf-input textarea {
@@ -404,7 +415,7 @@ img::-moz-selection {
   font-size: 14px;
   padding: 19px 60px 19px 30px;
   height: 56px;
-  color: var(--cf-color-black-alpha04);
+  color: #e22a0e;
   font-weight: var(--cf-font-weight-bold);
 }
 @media (min-width: var(--cf-breakpoint-1)) {
@@ -424,11 +435,14 @@ img::-moz-selection {
   border: none;
 }
 .dark-theme .conversational-form cf-input-button.microphone-interface {
-  background: var(--cf-color-white);
+  color: #e22a0e;
+  border: 1px solid #e22a0e;
+  background-color: blac-white);
 }
 .dark-theme .conversational-form cf-input-button .cf-icon-progress {
-  background-image: url("data:image/svg+xml;charset=utf-8;githu,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOXB4IiB2aWV3Qm94PSIwIDAgMTggMTkiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTM3Mi4wMDAwMDAsIC05NDUuMDAwMDAwKSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiPgogICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3NTEuMDAwMDAwLCA5MjcuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MjIuMDAwMDAwLCAxOS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOC4xNDAzNTA4OCwyLjEwOTE4MTE0IEw4LjE0MDM1MDg4LDE2LjA4MDkzODUiIGlkPSJMaW5lIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJSZWN0YW5nbGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuOTkzODAzLCA4LjA2ODc0NSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTcuOTkzODAzLCAtOC4wNjg3NDUpICIgcG9pbnRzPSIyLjYyNTkxMzI4IDEzLjQ4Njk1OCAyLjYyNTkxMzI4IDIuNjUwNTMxMjEgMi42MjU5MTMyOCAyLjY1MDUzMTIxIDEzLjM2MTY5MjEgMi42NTA1MzEyMSI+PC9wb2x5bGluZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
-  background-size: 18px 19px;
+  color: #e22a0e;
+  border: 1px solid #e22a0e;
+  background-color: black;
 }
 .dark-theme .conversational-form cf-input-button.loading:after {
   cf-border: x solid var(--cf-color-green);
@@ -462,8 +476,9 @@ img::-moz-selection {
 .dark-theme .conversational-form .cf-button:hover,
 .dark-theme .conversational-form .cf-button[checked="checked"],
 .dark-theme .conversational-form .cf-button.selected {
-  border-color: #5e5e5e;
-  color: var(--cf-color-black-alpha02);
+  color: #e22a0e;
+  border: 1px solid #e22a0e;
+  background-color: black;
 }
 .dark-theme .conversational-form .cf-button.highlight cf-radio,
 .dark-theme .conversational-form .cf-button.highlight cf-radio,
